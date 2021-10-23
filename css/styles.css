@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    padding: 5px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00944C;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.active {
+    background-color: #36E08E;
+}
