@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-image: url("/media/mesh.jpg");
 }
 
 li a {
@@ -39,4 +40,58 @@ ul {
 
 .active {
     background-color: #36E08E;
+}
+
+.cta-container {
+    position: absolute;
+    bottom: 9rem;
+    left: 9rem;
+}
+
+.cta-button {
+    background-color: #9B07E0;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-container {
+    display: flex;
+}
+
+.product-container {
+    margin: 20px 20px;
+    background-color: white;
+}
+
+.prod-h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #E0A121;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prod-img {
+    max-width: 100%;
+}
+
+.prod-p {
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.footer-copy {
+    text-align: center;
+    background-color: #00944C;
 }
