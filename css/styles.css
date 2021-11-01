@@ -14,9 +14,12 @@ li a {
     padding: 20px;
 }
 
-.logo {
-    width: 50px;
-    padding: 5px;
+.person-icon {
+    max-width: 30px;
+}
+
+.search-icon {
+    max-width: 30px;
 }
 
 nav {
@@ -36,16 +39,41 @@ ul {
     display: flex;
     flex-direction: row;
     margin: 0;
+    padding: 0;
 }
 
 .active {
     background-color: #36E08E;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.person-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+}
+
+.main-img {
+    opacity: 0.6;
+}
+
+.logo {
+    width: 9rem;
+}
+
 .cta-container {
     position: absolute;
-    bottom: 9rem;
-    left: 9rem;
+    bottom: 1rem;
+    right: 9rem;
 }
 
 .cta-button {
