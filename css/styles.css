@@ -88,7 +88,7 @@ ul {
 
 .news-h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .news-container {
@@ -115,7 +115,7 @@ ul {
 
 .prod-p {
     padding: 0 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     background-color: white;
 }
 
